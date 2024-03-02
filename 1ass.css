@@ -1,0 +1,136 @@
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+nav
+{
+height: 80px;
+background-color: black;
+display: flex;
+justify-content: space-between;
+padding: 0px 5px 0px 0px;
+align-items: center;
+}
+nav .logo
+{
+    display: fixed;
+font-size: 30px;
+color: red;
+font-weight: 800;
+margin-left: 5px;
+
+}
+nav b
+{
+color: green;
+}
+nav ul
+{
+display: flex;
+list-style: none;
+}
+nav ul li
+{
+margin: 0px 5px;
+padding: 10px 12px;
+}
+nav ul li a
+{
+text-decoration: none;
+color: white;
+padding: 10px;
+transition: all 0.3 ease;
+
+}
+nav ul li a:hover
+{
+background-color: blue;
+border-radius: 5px;
+}
+nav .menu-bar
+{
+    color: azure;
+    font-size: 22px;
+    cursor: pointer;
+}
+nav input
+{
+    display: none;
+}
+nav .menu-bar i
+{
+    display: none;
+}
+#login
+{
+    margin-left:400px;
+    background-color: blue;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-weight: 600;
+}
+
+
+@media screen and (max-width: 940px) {
+    nav .menu-bar i
+    {
+display: block;
+    }
+    #click:checked~ .menu-bar i::before
+    {
+        content: "\f00d";
+
+    }
+    nav.logo
+    {
+        color: aqua;
+       
+        position: fixed;
+    }
+nav ul{
+   
+    position: fixed;
+    top: 80px;
+    left: 100%;
+    background-color: black;
+    height: 100vh;
+    display: block;
+    width: 100%;
+    text-decoration: none;
+text-align: center;
+transition: all 0.5s ease;
+}
+#click:checked~ul
+{
+left: 0;
+}
+nav ul li
+{
+    margin: 20px 0;
+}
+nav ul li a
+{
+    font-size: 20px;
+    display: block;
+    font-weight: 600;
+    color: aqua;
+}
+nav ul li
+{
+    margin: 2px 0;
+}
+nav ul li a:hover
+{
+    color: black;
+}
+#login 
+{
+    margin-left: 0;
+    
+}
+
+}

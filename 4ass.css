@@ -1,0 +1,46 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+table
+{
+    border: 1px solid black;
+    width: 1535px;
+}
+table tr
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    border-bottom: 2px solid black;
+   
+    
+}
+table tr th
+{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    text-align: start;
+    
+}
+#head td
+{
+    text-align: start;
+
+}
+#number
+{
+    margin-right: 50px;
+}
+#email
+{
+    margin-right: 120px;
+}
+#number
+{
+    margin-left: 150px;
+    text-align: left;
+}

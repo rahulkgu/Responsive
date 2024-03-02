@@ -1,0 +1,214 @@
+/* font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+
+@media screen and ( max-width:1080px) {
+    
+}
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+nav
+{
+height: 80px;
+background-color: black;
+display: flex;
+justify-content: space-between;
+padding: 0px 5px 0px 0px;
+align-items: center;
+}
+nav .logo
+{
+    display: fixed;
+font-size: 30px;
+color: red;
+font-weight: 800;
+margin-left: 5px;
+
+}
+nav b
+{
+color: green;
+}
+nav ul
+{
+display: flex;
+list-style: none;
+}
+nav ul li
+{
+margin: 0px 5px;
+padding: 10px 12px;
+}
+nav ul li a
+{
+text-decoration: none;
+color: white;
+padding: 10px;
+transition: all 0.3 ease;
+
+}
+nav ul li a:hover
+{
+background-color: blue;
+border-radius: 5px;
+}
+nav .menu-bar
+{
+    color: azure;
+    font-size: 22px;
+    cursor: pointer;
+}
+nav input
+{
+    display: none;
+}
+nav .menu-bar i
+{
+    display: none;
+}
+#login
+{
+    margin-left:400px;
+    background-color: blue;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-weight: 600;
+}
+section 
+{
+    
+   display: flex;
+   flex-wrap: wrap;
+    margin: -10px 150px;
+}
+section .left 
+{
+    padding-top: 120px;
+    display: block;
+    flex-flow: column;
+    height: max-content;
+    width: fit-content; 
+}
+
+section .left img
+{
+    margin: 5px 0;
+    width: 250px;
+    height: 100px;
+    border-radius: 5px;
+}
+section .left h4
+{
+    margin: 5px 0;
+    font-size: 40px;
+}
+section .left h2
+{
+    display: block;
+    color: #3737e5;
+    font-weight: bold;
+    margin: 5px 0;
+    font-size: 80px;
+}
+section .left h5
+{
+    color: #3737e5;
+    margin: 5px 0;
+    font-size: 30px;
+
+}
+section .left p
+{
+    display: block;
+    width: 500px;
+    font-size: 20px;
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+section .right video
+{
+    height: 800px;
+    width: 600px;
+    margin-top: -20px;
+    margin-left: 100px;
+   
+   
+    
+}
+
+
+@media screen and (max-width: 940px) {
+    nav .menu-bar i
+    {
+display: block;
+    }
+    #click:checked~ .menu-bar i::before
+    {
+        content: "\f00d";
+
+    }
+    nav.logo
+    {
+        color: aqua;
+       
+        position: fixed;
+    }
+nav ul{
+   
+    position: fixed;
+    top: 80px;
+    left: 100%;
+    background-color: black;
+    height: 100vh;
+    display: block;
+    width: 100%;
+    text-decoration: none;
+text-align: center;
+transition: all 0.5s ease;
+}
+#click:checked~ul
+{
+left: 0;
+}
+nav ul li
+{
+    margin: 20px 0;
+}
+nav ul li a
+{
+    font-size: 20px;
+    display: block;
+    font-weight: 600;
+    color: aqua;
+}
+nav ul li
+{
+    margin: 2px 0;
+}
+nav ul li a:hover
+{
+    color: black;
+}
+#login 
+{
+    margin-left: 0;
+    
+}
+section .right
+{
+    padding-right: -50px;
+}
+section .right video
+{
+    
+    margin-left: 0px;
+    margin-top: -100px;
+    
+}
+
+}
